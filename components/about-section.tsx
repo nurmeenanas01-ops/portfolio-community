@@ -33,9 +33,16 @@ export function AboutSection() {
             </ul>
           </div>
 
-          <div className="rounded-2xl border border-border bg-background p-6">
-            <p className="text-sm text-muted-foreground">Currently</p>
-            <p className="mt-2 leading-relaxed">{profile.location}</p>
+          <div className="overflow-hidden rounded-2xl border border-border bg-background">
+            <img
+              src="/computer-workspace.png"
+              alt="A modern computer workstation displaying design work"
+              className="aspect-[4/3] w-full object-cover"
+            />
+            <div className="p-6">
+              <p className="text-sm text-muted-foreground">Currently</p>
+              <p className="mt-2 leading-relaxed">{profile.location}</p>
+            </div>
           </div>
         </div>
       </div>

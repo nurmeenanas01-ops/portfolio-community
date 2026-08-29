@@ -26,7 +26,7 @@ export const projects = [
     category: "Fintech · Product Design",
     description:
       "A ground-up redesign of a consumer banking app focused on clarity, trust, and effortless money movement.",
-    image: "/project-fintech.png",
+    image: "/project-northwind.png",
   },
   {
     title: "Atlas Analytics",
@@ -34,7 +34,7 @@ export const projects = [
     category: "SaaS · Design & Build",
     description:
       "A real-time analytics dashboard that turns dense data into decisions with a restrained, readable interface.",
-    image: "/project-analytics.png",
+    image: "/project-cpu.png",
   },
   {
     title: "Field Notes",
@@ -42,7 +42,7 @@ export const projects = [
     category: "Editorial · Web",
     description:
       "A publishing platform for independent writers, built around typography and a distraction-free reading flow.",
-    image: "/project-editorial.png",
+    image: "/project-fieldnotes.png",
   },
 ]
 

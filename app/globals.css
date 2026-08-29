@@ -163,3 +163,28 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: var(--twinkle-min, 0.25);
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+.animate-twinkle {
+  animation-name: twinkle;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  will-change: opacity, transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-twinkle {
+    animation: none;
+  }
+}

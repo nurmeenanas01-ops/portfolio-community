@@ -16,8 +16,8 @@ const instrumentSerif = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  title: 'Hamna Amjad — Portfolio',
-  description: 'Portfolio of Hamna Amjad',
+  title: 'Nurmeen Anas — Portfolio',
+  description: 'Portfolio of Nurmeen Anas',
   generator: 'v0.app',
   icons: {
     icon: [

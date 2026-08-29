@@ -1,6 +1,6 @@
 // Swap in your details here — everything on the page reads from this file.
 export const profile = {
-  name: "Hamna Amjad",
+  name: "Nurmeen Anas",
   role: "Product Designer & Developer",
   location: "Available worldwide — remote",
   tagline:
